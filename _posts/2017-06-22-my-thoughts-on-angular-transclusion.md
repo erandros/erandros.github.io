@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 ---
 ## My thoughts on AngularJS (> 1.5.x) directives templates and transclusion
 
@@ -93,4 +93,4 @@ Having your templates coming from the server will be better because:
 * Server html processing speed >> Angular html processing speed
 * Save you from painful scope problems.
 
-A benefit of this is that the html comes already generated from the server side. You can `ng-cloak` the (and what I say ng-cloak, I mean hide the parts that look like crap until the whole thing is loaded) 
+A benefit of this is that the html comes already generated from the server side. You can `ng-cloak` the (and what I say ng-cloak, I mean hide the parts that look like crap until the whole thing is loaded)
