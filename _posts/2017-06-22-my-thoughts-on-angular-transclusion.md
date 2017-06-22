@@ -26,7 +26,7 @@ This means that when you have your `index.html` file by like:
 
 When you browse it in your nice chromey/firefox browser, you'll get: 
 
-```
+```html
 <banana-holder>
   <div>bananas</div>
 </banana-holder>
@@ -47,7 +47,7 @@ Now, let's say that in your html file you do:
 And you act like "I want that `my custom bananatic` text to show up somewhere".
 I'd say, I agree, that's a good idea, it lets you customize your web elements. So, in the directive template, you do this:  
 
-```
+```html
 //angular directive template
 `<div>bananas</div><div ng-transclude></div>` 
 //I think you also need to do "transclude: true" in the directive properties
@@ -83,9 +83,9 @@ Or, if you don't care about having an isolated directive, use a good old control
 That's a jolly good question, m8!  
 Then make use of the templating engine your webapp framework has by default (I'm assuming you have a webapp framework).  
 
-If you're in the `ASPNET core` world, use `TagHelpers`, and name them the same as the directives. Emulating the transclusion behaviour is pretty easy with them.  
+If you're in the `ASPNET core` world, use `TagHelpers`, and name them the same as the directives. Emulating the transclusion behaviour is pretty easy with them. (Please, in general try use cshtml files as templates of TagHelpers [as shown here](https://stackoverflow.com/a/40443258/796608), which is the only read good way for Tag Helpers with big html content, I will probably talk about it in a future post)
 
-If you're in the Node.js world, and you're using `pug.js`, 
+If you're in the Node.js world, with `pug.js` (before known as, `jade`), you can use [mixin blocks](https://pugjs.org/language/mixins.html#mixin-blocks) to achieve transclusion easily as well.
 
 Having your templates coming from the server will be better because: 
  
