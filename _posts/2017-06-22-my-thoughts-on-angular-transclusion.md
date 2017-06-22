@@ -91,4 +91,4 @@ Having your templates coming from the server will be better because:
  
 * Server html processing speed >> Angular html processing speed
 * Save you from painful scope problems.
-* You can show the preloaded html parts before angular does anything and `ng-cloak` the rest (and what I say ng-cloak, I mean hide the parts that look like crap until the whole thing is loaded). In other words, show the most of your site without waiting for angular to finish loading.
+* You can show the preloaded html parts before angular does anything and `ng-cloak` the rest (and when I say ng-cloak, I mean hide the parts that look like crap until the whole thing is loaded). In other words, show the most of your site without waiting for angular to finish loading.
