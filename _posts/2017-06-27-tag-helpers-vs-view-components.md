@@ -2,6 +2,7 @@
 published: true
 title: "Discussing View Components vs Tag Helpers with myself (ASP.NET Core)"
 comments: true
+tags: [ASP.NET Core, web development, tag helpers, view components]
 ---
 Why am I writing this?
 
