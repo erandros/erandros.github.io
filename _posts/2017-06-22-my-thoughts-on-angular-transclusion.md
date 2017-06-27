@@ -1,6 +1,7 @@
 ---
 published: true
 title:  "My thoughts on AngularJS (> 1.5.x) directives templates and transclusion"
+comments: true
 ---
 Never use them and save yourself some scope related headaches (as in, "I can't access the damn scope of the parent/child").  
 
