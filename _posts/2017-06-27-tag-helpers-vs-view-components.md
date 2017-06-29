@@ -56,5 +56,5 @@ A lot of useful features that would take too much time to properly describe in t
 
 #### No razor templating by default
 
-* In order to pass a model to a razor (cshtml) file from a Tag Helper the same way View Components do, you have to whip out a generous amount of boilerplate code as shown in [this StackOverflow answer](`https://stackoverflow.com/a/40443258/796608`). And that makes your Tag Helper use a HtmlHelper to render itself.  
+* In order to pass a model to a razor (cshtml) file from a Tag Helper the same way View Components do, you have to whip out a generous amount of boilerplate code as shown in [this StackOverflow answer](https://stackoverflow.com/a/40443258/796608). And that makes your Tag Helper use a HtmlHelper to render itself.  
 And this is the only thing that is really painful about tag helpers. If Microsoft makes this easier, the I definitely see no purpose in using View Components.
